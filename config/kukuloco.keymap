@@ -15,10 +15,10 @@
 
         qwerty_layer {
             bindings = <
-&kp Q  &kp W  &kp E     &kp R  &kp T          &kp Y      &kp U  &kp I        &kp O       &kp P
-&kp A  &kp S  &kp D     &kp F  &kp G          &kp H      &kp J  &kp K        &kp L       &trans
-&kp Z  &kp X  &kp C     &kp V  &kp B          &kp N      &kp M  &comma_semi  &dot_colon  &qmrk_excl
-              &kp LGUI  &mo 2  &smart_shft    &kp SPACE  &mo 3  &to 0
+&kp Q  &kp W  &kp E     &kp R  &kp T             &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D     &kp F  &kp G             &kp H      &kp J  &kp K      &kp L    &kp SEMI
+&kp Z  &kp X  &kp C     &kp V  &kp B             &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+              &kp LGUI  &mo 2  &kp LEFT_SHIFT    &kp SPACE  &mo 3  &to 0
             >;
 
             label = "qwerty";
@@ -35,10 +35,10 @@
 
         num_layer {
             bindings = <
-&kp TILDE    &kp AT    &kp LBRC  &kp RBRC  &kp PRCNT    &kp STAR    &kp N7  &kp N8  &kp N9  &kp MINUS
-&kp CARET    &kp HASH  &kp LPAR  &kp RPAR  &kp DLLR     &kp UNDER   &kp N4  &kp N5  &kp N6  &kp PLUS
-&amps_morph  &kp LT    &kp LBKT  &kp RBKT  &kp GT       &slh_morph  &kp N1  &kp N2  &kp N3  &kp EQUAL
-                       &trans    &trans    &trans       &kp N0      &trans  &trans
+&kp TILDE  &kp AT    &kp LBRC  &kp RBRC  &kp PRCNT    &kp STAR   &kp N7  &kp N8  &kp N9  &kp MINUS
+&kp CARET  &kp HASH  &kp LPAR  &kp RPAR  &kp DLLR     &kp UNDER  &kp N4  &kp N5  &kp N6  &kp PLUS
+&trans     &kp LT    &kp LBKT  &kp RBKT  &kp GT       &trans     &kp N1  &kp N2  &kp N3  &kp EQUAL
+                     &trans    &trans    &trans       &kp N0     &trans  &trans
             >;
         };
 

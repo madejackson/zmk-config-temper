@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        activate.3.layer {
+            bindings = <&mo 3>;
+            key-positions = <31 34>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
